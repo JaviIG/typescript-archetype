@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noEmitOnError": true,
+    "moduleResolution": "node",
+    "lib": ["esnext", "dom"],
+    "types": [],
+    "baseUrl": ".",
+    "rootDir": "src",
+    "outDir": "dist",
+    "declaration": true,
+    "declarationDir": "types"
+  },
+  "include": ["src"],
+  "exclude": ["**/__tests__"]
+}
