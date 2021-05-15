@@ -11,8 +11,7 @@ module.exports = {
     'plugin:jest/style',
     'plugin:import/errors',
     'plugin:import/typescript',
-    'prettier',
-    'prettier/@typescript-eslint'
+    'prettier'
   ],
   reportUnusedDisableDirectives: true,
   rules: {
