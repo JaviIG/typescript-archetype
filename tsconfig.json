@@ -6,6 +6,8 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
+    "exactOptionalPropertyTypes": true,
+    "noUncheckedIndexedAccess ": true,
     "noEmitOnError": true,
     "moduleResolution": "node",
     "lib": ["esnext", "dom"],
